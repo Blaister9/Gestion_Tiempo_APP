@@ -1,0 +1,66 @@
+# ────────────────── Python ──────────────────
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+# Pipenv
+Pipfile.lock
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# pytest
+.cache/
+.coverage
+.tox/
+htmlcov/
+
+# ────────────────── Streamlit ───────────────
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/*.json
+# Cache y artefactos
+**/.streamlit/**/cache/
+
+# ────────────────── OpenAI / claves ─────────
+# Tu configuración cargada con python-dotenv
+.env            # Archivo con OPENAI_API_KEY y tokens GLPI
+
+# ────────────────── Logs y datos ────────────
+*.log
+*.csv
+*.json
+*.sqlite
+*.db
+
+# ────────────────── IDEs y editores ─────────
+# VSCode
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Visual Studio
+.vs/
+# Other
+*.sublime-*
+*.swp
+*.swo
+
+# ────────────────── Sistemas ────────────────
+.DS_Store        # macOS
+Thumbs.db        # Windows
+ehthumbs.db
+desktop.ini
+
+# ────────────────── Git & CI artefacts ─────
+*.orig
+*.patch
+*.rej
+*.bak
